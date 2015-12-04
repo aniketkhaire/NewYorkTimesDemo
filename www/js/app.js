@@ -45,6 +45,7 @@ function FreshlyPressed($http, $log){
             $scope.results = result.results;
             $scope.$broadcast("scroll.refreshComplete");
         });
+        
     };
     
     this.getWorld = function($scope){      
